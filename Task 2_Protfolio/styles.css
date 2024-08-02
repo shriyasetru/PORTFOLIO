@@ -1,0 +1,165 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff; 
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #3a4660; /* French Laundry Blue */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Peachy Kreme */
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+nav ul li a:hover {
+    color: #ff7f50; /* Lighter shade for hover effect */
+}
+
+
+/* Skills section styles */
+#skills {
+    background-color: #c9af98; /* Comfortably Tan */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#skills h2 {
+    color: #3a4660; /* French Laundry Blue */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    background-color: #ed8a63; /* Peachy Kreme */
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #c9af98; /* Peachy Kreme */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #3a4660; /* French Laundry Blue */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+/* Middle footer styles */
+.middle-footer {
+    background-color: #ed8a63; /* Comfortably Tan */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Social media icons styles */
+.footer-social-icons .icon {
+    display: inline-block;
+    height: 199px;
+    width: 45px;
+    background: #ed8a63; /* Peachy Kreme */
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-right: 200px;
+    transition: all .45s ease;
+}
+
+.footer-social-icons .icon i {
+    font-size: 50px;
+    color: #3a4660; /* French Laundry Blue */
+}
